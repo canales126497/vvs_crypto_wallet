@@ -24,7 +24,7 @@ services:
       dockerfile: Dockerfile
     container_name: laravel-php
     volumes:
-      - ./src:/var/www/html
+      - ./:/var/www/html
     ports:
       - "9009:9000"
     networks:
